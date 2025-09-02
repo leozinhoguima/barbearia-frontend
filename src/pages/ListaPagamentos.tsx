@@ -52,7 +52,7 @@ export default function RegisterPayment() {
 
   return (
     <div className="p-6 max-w-md mx-auto">
-      <h2 className="text-xl font-bold mb-4 text-center">Registrar Pagamento</h2>
+      <h2 className="text-xl font-bold mb-4 text-center">Lista de Pagamento</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
 
         
@@ -105,7 +105,8 @@ export default function RegisterPayment() {
         >
           <option>Dinheiro</option>
           <option>Pix</option>
-          <option>Cartão</option>
+          <option>Crédito</option>
+          <option>Débito</option>
         </select>
         <input
           type="text"
